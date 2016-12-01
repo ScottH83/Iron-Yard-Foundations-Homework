@@ -1,0 +1,20 @@
+header{
+  background-color: #343e3d;
+  width: 600px;
+  height: 65px;
+  padding: 20px;
+  margin-bottom: auto;
+  border: 10px;
+
+  text-align: center;
+
+
+}
+h1 {
+  color: #cfffe4
+}
+p {
+  width: 600px;
+  font-style: normal;
+
+}

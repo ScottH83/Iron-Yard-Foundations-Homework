@@ -1,0 +1,42 @@
+body {
+  font-family: serif;
+  line-height: 40px;
+}
+.section-1 {
+  background-color: #E34208;
+  color: white;
+}
+.shoe-1 {
+  width: 100px;
+}
+h1 {
+  text-transform: capitalize;
+  text-decoration: underline;
+  border: 1px solid black;
+}
+.section-3 {
+  background-color: #E34208;
+  color: white;
+}
+.example-tag {
+  background: lightblue;
+  padding: 25px 10px;
+}
+.section-1 p {
+
+}
+.section-2 p {
+
+}
+section-1 {
+  height: 400px;
+  width: 500px;
+}
+section-2 {
+  height: 500px;
+  width: 800px;
+}
+section-3 {
+  height: 500px;
+  width: 8800px;
+}
