@@ -1,0 +1,18 @@
+.product-info {
+  width: 450px;
+  background-color: #67C67E;
+}
+.product-image {
+  float: left;
+  margin: auto;
+}
+.product-details {
+  float: left;
+  color: #FFFFFF;
+}
+
+.product-description {
+  padding: 10px;
+  background-color: #7DADEA;
+  color: #FFFFFF;
+}

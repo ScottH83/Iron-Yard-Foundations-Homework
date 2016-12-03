@@ -1,36 +1,106 @@
 body {
-  font-family: serif;
-  line-height: 40px;
+  font-family: verdana;
+}
+.a:link {
+  color: ;
 }
 .section-1 {
   background-color: #E34208;
   color: white;
+  padding: 300px;
+  padding-left: 0px;
+  border: 1px solid black;
+  text-align: center;
+}
+.shoe {
+  border: 5px solid black;
+  display: inline-block;
+  margin-left: px;
+  float: left;
 }
 .shoe-1 {
+  border: 5px solid black;
+  float: right;
+}
+.clearfix {
+  clear: both;
+}
+.section-2 {
+  width: 600px;
+  text-align: left;
+  padding: 100px;
+  padding-left: 150px;
+  height: 300px
+
+}
+.button {
+  text-align: center;
+}
+.container {
+  display: inline-block;
+  border: 1px solid black;
+  float: both;
+  padding: 10px;
+  word-spacing: 12px;
+}
+.profile-nav {
+  float: right;
+  margin-top: 34px;
+}
+.nav {
+  color: #F69F64;
+}
+.logo-1{
   width: 100px;
+  padding-top: 15px;
+}
+.shoe-1 {
+  width: 500px;
+}
+.shoe-2 {
+  width: 250px;
+}
+.shoe-3 {
+  width: 250px;
+}
+.shoe-4 {
+  width: 250px;
+}
+p {
+  font-size: 12px;
+}
+h4 {
+  text-decoration: ;
+  font-size: 25px;
+}
+h2 {
+  font-size: 40px;
 }
 h1 {
-  text-transform: capitalize;
-  text-decoration: underline;
-  border: 1px solid black;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 25px;
+}
+h3 {
+  font-size: 10px;
+  color: #6B3212;
+  font-style: oblique;
 }
 .section-3 {
   background-color: #E34208;
   color: white;
+  padding: 50px;
+  padding-left: 0px;
+  border-top: 60px solid #FAA065;
+  text-align: center;
 }
-.example-tag {
-  background: lightblue;
-  padding: 25px 10px;
-}
-.section-1 p {
-
-}
-.section-2 p {
-
+.inline-sneakers {
+  display: inline-block;
+  margin: 10px;
 }
 section-1 {
-  height: 400px;
-  width: 500px;
+  height: 500px;
+  width: 800px;
 }
 section-2 {
   height: 500px;
@@ -38,5 +108,5 @@ section-2 {
 }
 section-3 {
   height: 500px;
-  width: 8800px;
+  width: 800px;
 }
