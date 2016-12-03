@@ -5,22 +5,18 @@ body {
   color: ;
 }
 .section-1 {
-  background-color: #E34208;
+  background-image: linear-gradient(to right,#5B0C0C,#D51616);
   color: white;
-  padding: 300px;
-  padding-left: 0px;
-  border: 1px solid black;
-  text-align: center;
+  padding: 50px;
+  padding-left: 100px;
 }
 .shoe {
-  border: 5px solid black;
   display: inline-block;
-  margin-left: px;
-  float: left;
 }
 .shoe-1 {
-  border: 5px solid black;
-  float: right;
+  display: inline-block;
+  text-align: left;
+  padding-right: 30px;
 }
 .clearfix {
   clear: both;
@@ -38,12 +34,19 @@ body {
 }
 .container {
   display: inline-block;
-  border: 1px solid black;
   float: both;
   padding: 10px;
-  word-spacing: 12px;
+  word-spacing: 15px;
 }
 .profile-nav {
+  float: right;
+  margin-top: 34px;
+}
+.container-1{
+  display: inline-block;
+  float: both;
+}
+.profile-nav-1 {
   float: right;
   margin-top: 34px;
 }
@@ -52,10 +55,10 @@ body {
 }
 .logo-1{
   width: 100px;
-  padding-top: 15px;
 }
 .shoe-1 {
-  width: 500px;
+  width: 520px;
+  padding-top: 30px
 }
 .shoe-2 {
   width: 250px;
@@ -83,16 +86,27 @@ h1 {
 }
 h3 {
   font-size: 10px;
-  color: #6B3212;
+  color: #DCDA96;
   font-style: oblique;
+  display: inline-block;
+}
+.shop {
+  background-image:linear-gradient(to right,#401F1F,#6B5151);
+  text-align: center;
+  padding: 10px;
+  font-size: 5px;
+  color: white;
+
 }
 .section-3 {
-  background-color: #E34208;
+  background-image:linear-gradient(to right,#5B0C0C,#D51616);
   color: white;
   padding: 50px;
   padding-left: 0px;
-  border-top: 60px solid #FAA065;
   text-align: center;
+}
+.price {
+  display: inline-block;
 }
 .inline-sneakers {
   display: inline-block;
@@ -109,4 +123,13 @@ section-2 {
 section-3 {
   height: 500px;
   width: 800px;
+}
+a {
+  color: red;
+}
+a:hover {
+  color: orange;
+}
+a:active {
+  color: blue;
 }
