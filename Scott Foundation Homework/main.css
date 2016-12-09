@@ -1,5 +1,5 @@
 body {
-  font-family: verdana;
+  font-family: courier;
 }
 .a:link {
   color: ;
@@ -24,18 +24,14 @@ body {
 .section-2 {
   width: 600px;
   text-align: left;
-  padding: 100px;
+  padding: 50px;
   padding-left: 150px;
-  height: 300px
-
-}
-.button {
-  text-align: center;
+  height: 250px
 }
 .container {
   display: inline-block;
   float: both;
-  padding: 10px;
+  padding: 15px;
   word-spacing: 15px;
 }
 .profile-nav {
@@ -45,10 +41,13 @@ body {
 .container-1{
   display: inline-block;
   float: both;
+  word-spacing: 15px;
+  padding: 15px;
 }
 .profile-nav-1 {
   float: right;
   margin-top: 34px;
+  word-spacing: normal;
 }
 .nav {
   color: #F69F64;
@@ -62,18 +61,42 @@ body {
 }
 .shoe-2 {
   width: 250px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .shoe-3 {
   width: 250px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .shoe-4 {
   width: 250px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+button {
+  font-size: 20px;
+  background-color: white;
+  display: inline-block;
+  float: right;
+  padding: 10px;
+  color: #D51616;
+  border-radius: 14px
+
+}
+.rating {
+  display: inline-block;
+  float: right;
+  padding-right: 50px;
+}
+.rating > span:hover:before {
+  content: "★";
+  position: absolute;
 }
 p {
   font-size: 12px;
 }
 h4 {
-  text-decoration: ;
   font-size: 25px;
 }
 h2 {
@@ -85,7 +108,7 @@ h1 {
   font-size: 25px;
 }
 h3 {
-  font-size: 10px;
+  font-size: 15px;
   color: #DCDA96;
   font-style: oblique;
   display: inline-block;
@@ -104,6 +127,12 @@ h3 {
   padding: 50px;
   padding-left: 0px;
   text-align: center;
+}
+.section-4 {
+  text-align: left;
+  padding-left: 150px;
+  margin-top:  20px;
+  font-size: 20px;
 }
 .price {
   display: inline-block;
@@ -126,10 +155,13 @@ section-3 {
 }
 a {
   color: red;
+  text-decoration: none;
 }
 a:hover {
   color: orange;
+  text-decoration: underline;
 }
 a:active {
   color: blue;
+  text-decoration: none;
 }
